@@ -1,0 +1,9 @@
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+~$*
+*.db
+__pycache__/
+.venv/
+.env
