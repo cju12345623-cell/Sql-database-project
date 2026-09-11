@@ -18,7 +18,7 @@ BEGIN
     SELECT DISTINCT
 
         --------------------------------------------------
-        -- 기본 정보
+        -- basic Info
         --------------------------------------------------
         CAST(CAST(h.debitornumber AS BIGINT) AS VARCHAR(50))
             AS debitornumber,
@@ -111,7 +111,7 @@ BEGIN
 
 
         --------------------------------------------------
-        -- Open Ticket Number 전부 합치기
+        -- Merging Open Ticket Number 
         --------------------------------------------------
         (
             SELECT STRING_AGG(
